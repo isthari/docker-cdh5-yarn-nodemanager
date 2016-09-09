@@ -3,6 +3,10 @@
 
 <configuration>
   <property>
+    <name>yarn.nodemanager.address</name>
+    <value>${yarn.nodemanager.hostname}:45454</value>
+  </property>
+  <property>
     <name>yarn.resourcemanager.hostname</name>
     <value>${yarn.resourcemanager.hostname}</value>
   </property>

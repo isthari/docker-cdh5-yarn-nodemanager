@@ -8,6 +8,6 @@ ADD yarn-site.xml /etc/hadoop/conf/yarn-site.xml
 ADD start.sh /root/start.sh
 RUN chmod u+x /root/start.sh
 
-EXPOSE 50562 8042
+EXPOSE 8042 45454
 
 CMD /root/start.sh
